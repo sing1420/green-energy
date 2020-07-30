@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #fff;
+	color: #fff;
+}
+
+body{
+	color: #fff;
+	font-size: 1rem;
+	margin: 0;
+	line-height: 1.5;
+}
+
+header {
+    width: 100%;
+    background-color: #dc0000;
+    padding: 20px 10px;
+}
+
+header a{
+	margin-right: 10px;
+	color: #fff;
+}
+
+footer{
+	padding: 0 5%;
+    color: #dc0000;
+}
+
+footer a{
+	color: #dc0000;
+}
+
+h1,h2,h3{
+	font-family: 'Libre Baskerville', serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.masthead{
+	background-image: url('../img/bg.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #c0cee4;
+	color: #dc0000;
+}
+
+.main-content{
+	max-width: 50rem;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.main-content button{
+	background-color: transparent;
+	border: 1px solid;
+	border-color: #dc0000;
+	color: #dc0000;
+	height: 2rem;
+	margin-right: 0.5rem;
+}
+
+.main-content button#active-button{
+	background-color: #dc0000;
+	color: #fff;
+}
+
+/*desktop*/
+@media (min-width: 60rem) {
+	body{
+		font-size: 1.5rem;
+	}
+
+	#first{
+		display: inline-block;
+	    width: 40%;
+	    padding-bottom: 5%;
+	}
+
+
+	#second{
+		width: 50%;
+	    display: inline-block;
+	    padding-left: 5%;
+	    margin-top: 0;
+	    padding-top: 0;
+	}
+
+}
+
